@@ -1,0 +1,17 @@
+<header class="site-header" role="banner">
+
+    <div class="wrapper header-menu">
+      {%- assign default_paths = site.pages | map: "path" -%}
+      {%- assign page_paths = site.header_pages | default: default_paths -%}
+      <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+      {%- if page_paths -%}
+        <div class="menu top-menu"> 
+          <a class="page-link" href="/study/courses/">Все курсы</a>
+          <a class="page-link" href="/study/courses/spec/">Спецкурсы</a>
+          <a class="page-link" href="/study/calendar">Календарь</a>
+          <a class="page-link" href="/study/news">Новости</a>
+          <a class="page-link" href="/study/about">О нас</a>
+        </div>
+      {%- endif -%}
+    </div>
+  </header>
