@@ -1,7 +1,7 @@
 var links = document.getElementsByClassName("page-link");
 
 for (var i = 0; i < links.length; i++) {
-    if (links[i].href != "https://creewick.github.io/study/courses/") {
+    if (links[i].href != "https://mat-mex.github.io/courses/") {
         if (document.URL.indexOf(links[i].href) > -1) {
             select(links[i]);
         }
@@ -12,7 +12,7 @@ for (var i = 0; i < links.length; i++) {
     }
 };
 
-if (document.URL == 'https://creewick.github.io/study/'){
+if (document.URL == 'https://mat-mex.github.io'){
     select(document.getElementsByClassName('site-title')[0]);
 }
 
