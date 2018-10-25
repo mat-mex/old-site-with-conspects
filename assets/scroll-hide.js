@@ -4,9 +4,9 @@ window.onscroll = function() {
   var menu = document.getElementsByClassName("scroll-hide")[0];
 
   if (prevScrollpos > currentScrollPos) {
-    menu.className = "menu wrapper scroll-hide open";
+    menu.className = "wrapper scroll-hide open hide-scrollbar-menu";
   } else {
-    menu.className = "menu wrapper scroll-hide";
+    menu.className = "wrapper scroll-hide hide-scrollbar-menu";
   }
 
   if (pageYOffset > 0) {
