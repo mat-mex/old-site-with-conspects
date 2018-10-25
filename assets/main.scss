@@ -22,7 +22,7 @@
     display: flex;
 }
 
-.site-header .header-menu {
+.header-menu {
     padding: 0;
 }
 
@@ -52,7 +52,6 @@
 
     z-index: 1;
     border-bottom: 1px solid #e8e8e8;
-    display: flex;
     position: fixed;
     align-self: center;
     width: 100%;
