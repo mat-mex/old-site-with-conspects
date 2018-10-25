@@ -12,7 +12,7 @@ for (var i = 0; i < links.length; i++) {
     }
 };
 
-if (document.URL == 'https://mat-mex.github.io'){
+if (document.URL == 'https://mat-mex.github.io/'){
     select(document.getElementsByClassName('site-title')[0]);
 }
 
