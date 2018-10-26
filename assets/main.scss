@@ -11,6 +11,13 @@
     top: 0;
 }
 
+.scroll-hint {
+    position: relative;
+    left: calc(100% - 120px);
+    top: -80px;
+    color: lightgray;
+}
+
 .hide-scrollbar-menu {
     height: 56px;
     overflow: hidden;
