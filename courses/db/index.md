@@ -10,7 +10,7 @@ title: Базы Данных
 
 ### Практическая работа 
 
-1. [Выбрать тему](https://docs.google.com/spreadsheets/d/1H-9Bj0keo8Rx2MwhgZDyAFXV3yYI_jJ0tODTJlJnbZA/edit?usp=drivesdk)
+1. [Выбрать тему (Google Doc)](https://docs.google.com/spreadsheets/d/1H-9Bj0keo8Rx2MwhgZDyAFXV3yYI_jJ0tODTJlJnbZA/edit?usp=drivesdk)
 
 2. Придумать, какие таблицы будут в БД
 
