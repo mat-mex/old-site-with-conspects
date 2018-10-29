@@ -12,17 +12,7 @@ menu_title: Тервер
 
 ---
 
-[Первая контрольная](practice/1c.pdf) Дедлайн: 19 октября 00:00
-
----
-
-* [7 неделя](practice/7.pdf)
-* [6 неделя](practice/6.pdf)
-* [5 неделя](practice/5.pdf)
-* [4 неделя](practice/4.pdf)
-* [3 неделя](practice/3.pdf)
-* [2 неделя](practice/2.pdf) Решения: [Пара](practice/2b.pdf) \| [Допы](practice/2d.pdf)
-* [1 неделя](practice/1.pdf) Решения: [Пара](practice/1b.pdf) \| [Допы](practice/1d.pdf)
+[GitHub с задачами](https://github.com/mathmechterver/practice)
 
 ---
 
@@ -66,17 +56,7 @@ menu_title: Тервер
 
 ---
 
-### Презентации:
-
-* [5 лекция](files/лекция5.pdf)
-* [4 лекция](files/лекция4.pdf)
-* [3 лекция](files/лекция3.pdf)
-* [2 лекция](files/лекция2.pdf)
-* [1 лекция](files/лекция1.pdf)
-
----
-
-[Таблица успеваемости](https://docs.google.com/spreadsheets/d/1hknd5cHfdv8rGzEVAx_11nrOd75yYCrHjLHA2q2FlTI/edit#gid=1860401608)
+[Таблица успеваемости и **презентации**](https://docs.google.com/spreadsheets/d/1hknd5cHfdv8rGzEVAx_11nrOd75yYCrHjLHA2q2FlTI/edit#gid=1860401608)
 
 [Конспекты 1 семестр](files/конспект1.pdf)
 
