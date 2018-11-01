@@ -161,7 +161,7 @@ layout: default
         document.getElementsByClassName("scroll-hide")[0].className = "wrapper scroll-hide open hide-scrollbar-menu";
         document.getElementById("spec").childNodes.forEach(div => {
             var id = div.className;
-            if (id.substring(1) == "sem"){
+            if (id){
                 var count = 0;
                 
                 div.getElementsByTagName("label").forEach(label => {
