@@ -166,10 +166,11 @@ layout: default
                 var count = 0;
 
                 for (var i = 0; i < labels.length; i++) {
-                    var checkbox = labels[i].childNodes[0];
-                    if (checkbox.checked) {
-                        count += checkbox.className[0];
-                    }
+                    labels.childNodes.forEach(checkbox => {
+                        if (checkbox.checked) {
+                            count += checkbox.className[0];
+                        }
+                    });
                 };
 
                 document.getElementById(id).innerHTML = count;
