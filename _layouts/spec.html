@@ -4,7 +4,7 @@ layout: default
 <style>
     h3 { text-decoration: underline; display: inline; }
     .menu .page-link.red { color: red; }
-    #calc:hover, #calc:focus { border-bottom: 2px solid transparent; }
+    .calc:hover, .calc:focus { border-bottom: 2px solid transparent; }
 </style>
 
 {{ content }}
@@ -159,6 +159,9 @@ layout: default
 <script>    
     function count(checkbox, number) {
         document.getElementsByClassName("scroll-hide")[0].className = "wrapper scroll-hide open hide-scrollbar-menu";
+
+        var semClicked = 0;
+
         document.getElementById("spec").childNodes.forEach(div => {
             var id = div.className;
             if (id) {
@@ -166,20 +169,18 @@ layout: default
                 var count = 0;
 
                 for (var i = 0; i < labels.length; i++) {
-                    labels[i].childNodes.forEach(checkbox => {
-                        if (checkbox.checked) {
-                            count += parseInt(checkbox.className[0]);
-                        }
+                    labels[i].childNodes.forEach(check => {
+                        if (check === checkbox) semClicked = id;
+                        if (check.checked) count += parseInt(check.className[0]);
                     });
                 };
 
                 document.getElementById(id + "My").innerHTML = count;
-
-                var text = document.getElementById(id);
-                if (count < parseInt(document.getElementById(id + "Goal").innerHTML))
-                    text.className = "page-link calc red"
-                else text.className = "page-link calc";
             }
         });
+
+        document.getElementById(id).className = count < parseInt(document.getElementById(id + "Goal").innerHTML)
+            ? text.className = "page-link calc red"
+            : text.className = "page-link calc";
     }
 </script>
