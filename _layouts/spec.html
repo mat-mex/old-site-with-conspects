@@ -147,7 +147,10 @@ layout: default
     document.getElementsByClassName("scroll-hide")[0].innerHTML = `
         <div class="menu">
             <span id="calc" class="page-link">
-                Выбрано: <span id="choosen">0</span> Нужно набрать: 16
+                5 семестр: <span id="sum_5">0</span>/16
+                6 семестр: <span id="sum_6">0</span>/11
+                7 семестр: <span id="sum_7">0</span>/0
+                8 семестр: <span id="sum_8">0</span>/0
             </span>
         </div>`;
 </script>
@@ -169,6 +172,6 @@ layout: default
             calc.className = "page-link red"
         else calc.className = "page-link";
 
-        document.getElementById("choosen").innerHTML = count;
+        document.getElementById("sum_5").innerHTML = count;
     }
 </script>
