@@ -160,8 +160,6 @@ layout: default
     function count(checkbox, number) {
         document.getElementsByClassName("scroll-hide")[0].className = "wrapper scroll-hide open hide-scrollbar-menu";
 
-        var semClicked = 0;
-
         document.getElementById("spec").childNodes.forEach(div => {
             var id = div.className;
             if (id) {
@@ -170,18 +168,18 @@ layout: default
 
                 for (var i = 0; i < labels.length; i++) {
                     labels[i].childNodes.forEach(check => {
-                        if (check === checkbox) semClicked = id;
                         if (check.checked) count += parseInt(check.className[0]);
                     });
                 };
 
                 document.getElementById(id + "My").innerHTML = count;
+
+                if (check === checkbox)
+                    document.getElementById(semClicked).className = 
+                        count < parseInt(document.getElementById(semClicked + "Goal").innerHTML)
+                        ? "page-link calc red"
+                        : "page-link calc";
             }
         });
-
-        document.getElementById(semClicked).className = 
-            count < parseInt(document.getElementById(semClicked + "Goal").innerHTML)
-            ? "page-link calc red"
-            : "page-link calc";
     }
 </script>
