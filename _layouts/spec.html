@@ -166,7 +166,7 @@ layout: default
                 var count = 0;
 
                 for (var i = 0; i < labels.length; i++) {
-                    labels.childNodes.forEach(checkbox => {
+                    labels[i].childNodes.forEach(checkbox => {
                         if (checkbox.checked) {
                             count += checkbox.className[0];
                         }
