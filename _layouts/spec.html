@@ -179,7 +179,8 @@ layout: default
             }
         });
 
-        document.getElementById(id).className = count < parseInt(document.getElementById(id + "Goal").innerHTML)
+        document.getElementById(semClicked).className = 
+            count < parseInt(document.getElementById(semClicked + "Goal").innerHTML)
             ? text.className = "page-link calc red"
             : text.className = "page-link calc";
     }
