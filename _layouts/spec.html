@@ -161,15 +161,16 @@ layout: default
         document.getElementsByClassName("scroll-hide")[0].className = "wrapper scroll-hide open hide-scrollbar-menu";
         document.getElementById("spec").childNodes.forEach(div => {
             var id = div.className;
-            if (id){
+            if (id) {
+                var labels =  div.getElementsByTagName("label")
                 var count = 0;
-                
-                div.getElementsByTagName("label").forEach(label => {
-                    var checkbox = label.childNodes[0];
+
+                for (var i = 0; i < labels.length; i++) {
+                    var checkbox = labels[i].childNodes[0];
                     if (checkbox.checked) {
                         count += checkbox.className[0];
                     }
-                });
+                };
 
                 documents.getElementById(id).innerHTML = count;
             }
