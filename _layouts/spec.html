@@ -150,10 +150,10 @@ layout: default
 <script>
     document.getElementsByClassName("scroll-hide")[0].innerHTML = `
         <div class="menu">
-            <span id="calc" class="page-link">5 семестр: <span id="5sem">0</span>/16</span>
-            <span id="calc" class="page-link">6 семестр: <span id="6sem">0</span>/11</span>
-            <span id="calc" class="page-link">7 семестр: <span id="7sem">0</span>/0</span>
-            <span id="calc" class="page-link">8 семестр: <span id="8sem">0</span>/0</span>
+            <span id="5sem" class="page-link calc">5 семестр: <span id="5semMy">0</span>/<span id="5semGoal">16</span></span>
+            <span id="6sem" class="page-link calc">6 семестр: <span id="6semMy">0</span>/<span id="6semGoal">11</span></span>
+            <span id="7sem" class="page-link calc">7 семестр: <span id="7semMy">0</span>/<span id="7semGoal">0</span></span>
+            <span id="8sem" class="page-link calc">8 семестр: <span id="8semMy">0</span>/<span id="8semGoal">0</span></span>
         </div>`;
 </script>
 <script>    
@@ -168,12 +168,17 @@ layout: default
                 for (var i = 0; i < labels.length; i++) {
                     labels[i].childNodes.forEach(checkbox => {
                         if (checkbox.checked) {
-                            count += checkbox.className[0];
+                            count += parseInt(checkbox.className[0]);
                         }
                     });
                 };
 
-                document.getElementById(id).innerHTML = count;
+                document.getElementById(id + "My").innerHTML = count;
+
+                var text = document.getElementById(id);
+                if (count < parseInt(document.getElementById(id + "Goal").innerHTML))
+                    text.className = "page-link calc red"
+                else text.className = "page-link calc";
             }
         });
     }
