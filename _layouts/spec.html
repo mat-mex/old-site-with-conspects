@@ -164,17 +164,19 @@ layout: default
             var id = div.className;
             if (id) {
                 var labels =  div.getElementsByTagName("label")
+                var thisSemClicked = false;
                 var count = 0;
 
                 for (var i = 0; i < labels.length; i++) {
                     labels[i].childNodes.forEach(check => {
+                        if (check === checkbox) thisSemClicked = true;
                         if (check.checked) count += parseInt(check.className[0]);
                     });
                 };
 
                 document.getElementById(id + "My").innerHTML = count;
 
-                if (check === checkbox)
+                if (thisSemClicked)
                     document.getElementById(semClicked).className = 
                         count < parseInt(document.getElementById(semClicked + "Goal").innerHTML)
                         ? "page-link calc red"
