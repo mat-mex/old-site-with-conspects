@@ -177,8 +177,8 @@ layout: default
                 document.getElementById(id + "My").innerHTML = count;
 
                 if (thisSemClicked)
-                    document.getElementById(semClicked).className = 
-                        count < parseInt(document.getElementById(semClicked + "Goal").innerHTML)
+                    document.getElementById(id).className = 
+                        count < parseInt(document.getElementById(id + "Goal").innerHTML)
                         ? "page-link calc red"
                         : "page-link calc";
             }
