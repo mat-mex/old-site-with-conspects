@@ -1,16 +1,6 @@
 ---
 layout: default
 ---
-<div class="wrapper scroll-hide hide-scrollbar-menu">
-    <div class="menu">
-        <span id="calc" class="page-link">
-            Выбрано: <span id="choosen">0</span> Нужно набрать: 16
-        </span>
-    </div>
-</div>
-<script src="/assets/header.js"></script>
-<script src="/assets/scroll-hide.js"></script>
-
 {{ content }}
 
 <h2 id="блоки-и-курсы">Блоки и курсы</h2>
@@ -162,6 +152,14 @@ layout: default
 </ul>
 
 <script>
+    document.getElementsByClassName("scroll-hide")[0].innerHTML = `
+        <div class="menu">
+            <span id="calc" class="page-link">
+                Выбрано: <span id="choosen">0</span> Нужно набрать: 16
+            </span>
+        </div>`;
+</script>
+<script>    
     function count(checkbox, number) {
         document.getElementsByClassName("scroll-hide")[0].className = "wrapper scroll-hide open hide-scrollbar-menu";
 
