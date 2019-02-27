@@ -7,6 +7,7 @@ header_pages:
   - courses/terver/index.md
   - courses/alg/index.md
   - courses/cgg/index.md
+  - courses/physics/index.md
 
 defaults:
   -
