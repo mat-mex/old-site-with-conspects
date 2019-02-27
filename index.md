@@ -28,4 +28,6 @@ title: ""
 
 [Физика](courses/physics)
 
+[ЛОИ](courses/loi)
+
 **[Пройденные курсы](courses/)**

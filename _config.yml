@@ -8,6 +8,7 @@ header_pages:
   - courses/alg/index.md
   - courses/cgg/index.md
   - courses/physics/index.md
+  - courses/loi/index.md
 
 defaults:
   -
