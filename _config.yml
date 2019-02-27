@@ -5,13 +5,8 @@ theme: minima
 
 header_pages:
   - courses/terver/index.md
-  - courses/assembler/index.md
   - courses/alg/index.md
-  - courses/combalg/index.md
-  - courses/yandex/js.md
-  - courses/yandex/markup.md
-  - courses/hackerdom/index.md
-  - courses/web/index.md
+  - courses/cgg/index.md
 
 defaults:
   -
