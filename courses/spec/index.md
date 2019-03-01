@@ -1,5 +1,6 @@
 ---
 title: Курсы и спецкурсы
+menu_title: Спецкурсы
 layout: spec
 ---
 

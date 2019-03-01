@@ -1,5 +1,6 @@
 ---
 title: Все курсы
+menu_title: Все курсы
 toc: true
 ---
 

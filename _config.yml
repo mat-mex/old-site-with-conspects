@@ -3,7 +3,13 @@ title: МатМех
 markdown: kramdown
 theme: minima
 
-header_pages:
+sections:
+  - courses/index.md
+  - courses/spec/index.md
+  - calendar.md
+  - about.md
+
+courses:
   - courses/3/terver/index.md
   - courses/3/cgg/index.md
   - courses/3/loi/index.md
