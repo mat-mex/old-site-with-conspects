@@ -4,11 +4,8 @@ markdown: kramdown
 theme: minima
 
 header_pages:
-  - courses/terver/index.md
-  - courses/alg/index.md
-  - courses/cgg/index.md
-  - courses/physics/index.md
-  - courses/loi/index.md
+  - courses/3/terver/index.md
+  - courses/3/cgg/index.md
 
 defaults:
   -
