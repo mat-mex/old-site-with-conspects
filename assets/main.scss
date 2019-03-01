@@ -32,8 +32,9 @@
 .site-logo {
     width: 44px;
     height: 44px;
+    vertical-align: top;
     position: relative;
-    top: -4px;
+    top: 6px;
 }
 
 .header-menu {
@@ -91,6 +92,11 @@
 
 .page-content {
     padding-top: 72px;
+}
+
+.wrapper {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 hr {
