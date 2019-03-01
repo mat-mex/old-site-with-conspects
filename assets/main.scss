@@ -119,3 +119,9 @@ h1, h2, h3, h3 {
     margin-top: -72px;
     padding-top: 72px;
 }
+
+@media only screen and (max-width: 600px) {
+    .site-name {
+        display: none;
+    }
+}
