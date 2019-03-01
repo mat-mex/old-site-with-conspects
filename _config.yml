@@ -6,6 +6,8 @@ theme: minima
 header_pages:
   - courses/3/terver/index.md
   - courses/3/cgg/index.md
+  - courses/3/loi/index.md
+  - courses/3/physics/index.md
 
 defaults:
   -
