@@ -15,8 +15,6 @@ courses:
   - courses/3/loi/index.md
   - courses/3/physics/index.md
 
-exclude: ["*.pdf", "*.png"]
-
 defaults:
   -
     scope:
