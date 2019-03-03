@@ -23,7 +23,7 @@
           <h1>{{ page.title }}</h1>
         {% endif %}
         {% if page.toc == true %}      
-          {% assign h_max = page.h_max ?? 6 %}
+          {% assign h_max = page.h_max | default: 6 %}
           <h3>Содержание:</h3>
           {% include toc.html html=content h_max=h_max %}
         {% endif %}
