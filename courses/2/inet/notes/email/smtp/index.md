@@ -287,7 +287,7 @@ Content-Type: text/x-whatever
 
 ## Настройка зоны DNS: PTR запись 
 
-![1529606596216](img\Настройка зоны DNS - PTR запись.png)
+![1529606596216](img/ptr.png)
 
 > 44.33.22.11.in-addr.arpa. IN PTR mail.example.com. 
 
@@ -297,9 +297,9 @@ Content-Type: text/x-whatever
 
 
 
-![1529606695111](img\Настройка зоны DNS - SPF.png)
+![1529606695111](img/spf.png)
 
-![1529606720959](img\Настройка зоны DNS - SPF - 2.png)
+![1529606720959](img/spf2.png)
 
 ## DomainKeys Identified Mail
 
@@ -311,5 +311,5 @@ __t__=1117574938; __x__=1118006938;
 
 __h__=`from:to:subject:date:keywords:keywords;` __bh__=`MTIzNDU2Nzg5MDEyMzQ1Njc4OTAxMjM0NTY3ODkwMTI=;` __b__=`dzdVyOfAKCdLXdJOc9G2q8LoXSlEniSbav+yuU4zGeeruD00lszZVoG4 ZHRNiYzR `
 
-![1529606759348](img\DomainKeys Identified Mail.png)
+![1529606759348](img/DomainKeysIdentifiedMail.png)
 

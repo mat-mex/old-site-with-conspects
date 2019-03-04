@@ -58,7 +58,7 @@ menu_title: Тервер
 
 [Таблица успеваемости и **презентации**](https://docs.google.com/spreadsheets/d/1hknd5cHfdv8rGzEVAx_11nrOd75yYCrHjLHA2q2FlTI/edit#gid=1860401608)
 
-[Конспекты 1 семестр](files/конспект1.pdf)
+[Конспекты 1 семестр](files/1.pdf)
 
 [Задачи по теории](files/teor_problems.pdf)
 
