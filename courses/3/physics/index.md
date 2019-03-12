@@ -28,3 +28,5 @@ menu_title: Физика
 ---
 
 [Темы для докладов](doclad)
+
+[Выбор докладов](https://docs.google.com/spreadsheets/d/1v96KeRHCxkKHm5Fsxh7FiwePLQ46DEek3uP0NDsOaU0/edit?usp=sharing)

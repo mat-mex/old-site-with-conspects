@@ -8,6 +8,10 @@ title: ""
 
 # Новости
 
+[Выбор докладов по физике](https://docs.google.com/spreadsheets/d/1v96KeRHCxkKHm5Fsxh7FiwePLQ46DEek3uP0NDsOaU0/edit?usp=sharing)
+
+---
+
 Добавили [презентации по физике](courses/3/physics) и [список тем для докладов](courses/3/physics/doclad).
 
 Добавили [лекции и задачи по КГГ](courses/3/cgg). Спасибо Маше :3

@@ -3,6 +3,8 @@ title: Темы для докладов
 toc: true
 ---
 
+## [Выбор докладов](https://docs.google.com/spreadsheets/d/1v96KeRHCxkKHm5Fsxh7FiwePLQ46DEek3uP0NDsOaU0/edit?usp=sharing)
+
 ## История естествознания
 
 1. Отражение природных явлений в древних мифах
