@@ -7,13 +7,13 @@
         <img class="site-logo" src="/favicon.png">
         <span class="site-name">МатМех</span>
       </a>
-      {%- if page_paths -%}
-        <div class="menu top-menu"> 
-          <a class="page-link" href="/courses/">Все курсы</a>
-          <a class="page-link" href="/courses/spec/">Спецкурсы</a>
-          <a class="page-link" href="/calendar">Расписание</a>
-          <a class="page-link" href="/about">О нас</a>
-        </div>
-      {%- endif -%}
+      <div class="menu top-menu">
+        {%- for path in site.sections -%}
+          {%- assign my_page = site.pages | where: "path", path | first -%}
+          {%- if my_page.menu_title -%}
+          <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.menu_title | escape }}</a>
+          {%- endif -%}
+        {%- endfor -%}
+      </div>
     </div>
   </header>
